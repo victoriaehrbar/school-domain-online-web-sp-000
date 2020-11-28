@@ -7,8 +7,7 @@ class School
   end
 
   def add_student(name, grade)
-    name.each do
     roster[grade] = [name]
   end
 end
-end
+
